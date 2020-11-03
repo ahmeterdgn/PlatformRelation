@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:platformrelation/views/facebook.dart';
 import 'package:platformrelation/views/google.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Google(),
+      home: Facebook(),
     );
   }
 }
